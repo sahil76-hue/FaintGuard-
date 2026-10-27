@@ -1,4 +1,4 @@
-# ⚡ FaintGuard
+# ⚡ FaintGuard (Simulation)
 
 ### ⌚ Your Wearable Safety Companion
 
