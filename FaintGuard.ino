@@ -21,7 +21,7 @@ const char* WIFI_PASSWORD = "";
 // Enter your freshly generated token locally.
 // Never upload your token to GitHub.
 
-const char* BOT_TOKEN = "9025084791:AAG-eLtfR6Jw24odU4NeyRd4WUEEkCSbeTY";
+const char* BOT_TOKEN = "";
 const char* CHAT_ID = "1992631616";
 
 // =============== PIN CONFIGURATION ===============
