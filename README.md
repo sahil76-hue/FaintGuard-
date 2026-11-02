@@ -1,30 +1,46 @@
-# ⚡ FaintGuard (Simulation)
+# FaintGuard – ESP32-Based Wearable Fainting Detection System
 
-### ⌚ Your Wearable Safety Companion
+**FaintGuard** is a smart wearable prototype designed to monitor physiological parameters and body movements to identify potential fainting-related events. The system combines sensor data with multi-parameter detection logic to recognize unusual patterns and generate alerts.
 
-**FaintGuard** is an ESP32-powered wearable project that combines physiological monitoring and motion sensing to explore fall detection and potential fainting-warning indicators. Using the **MAX30102** pulse oximeter and **MPU6050** accelerometer and gyroscope, the system monitors pulse-related signals, estimates SpO₂, and analyzes movement patterns to identify unusual events. The vision is to build a compact smartwatch prototype with real-time monitoring, intelligent alerts, wireless connectivity, and future machine-learning capabilities.
+## 🔧 Current Development
+
+The initial prototype has been developed using **ESP32 in Wokwi simulation** to test the sensor integration, monitoring logic, and alert mechanism.
+
+### Hardware & Components
+- **ESP32 DevKit V1** – Main microcontroller for the initial simulation.
+- **MAX30102** – Heart rate and SpO₂ monitoring.
+- **MPU6050** – Accelerometer and gyroscope for movement and fall detection.
+- **OLED Display** – Real-time monitoring interface.
+- **Buzzer** – Alert mechanism.
+
+## 🚀 Future Development
+
+The next phase will involve developing a physical wearable prototype using the **ESP32 Super Mini** instead of the standard ESP32 DevKit.
+
+The ESP32 Super Mini will provide a smaller form factor, making it more suitable for integration into a compact wearable band or smartwatch-style enclosure.
+
+Planned improvements:
+- Compact wearable band design.
+- Real-time physiological and motion monitoring.
+- Multi-parameter anomaly detection.
+- Intelligent alert generation.
+- Low-power operation for battery-powered use.
+- Physical hardware testing and validation.
+
+## 🛠️ Development Platform
+- Wokwi – Initial circuit simulation.
+- Arduino IDE – Embedded firmware development.
+- ESP32 – Microcontroller platform.
+- C/C++ – Firmware programming.
+
+## 📌 Project Status
+
+**Phase 1:** Wokwi simulation using ESP32 DevKit V1.
+
+**Phase 2:** Physical implementation using ESP32 Super Mini and a wearable band (planned).
+
+**Phase 3:** Testing, optimization, and validation (upcoming).
 
 ---
 
-### 🔧 Tech Stack
-
-`ESP32` · `MAX30102` · `MPU6050` · `Embedded C/C++` · `Arduino IDE` · `Wi-Fi` · `Sensor Fusion`
-
-### 🚀 Roadmap
-
-- [x] Project concept and sensor selection
-- [ ] Integrate MAX30102 and MPU6050
-- [ ] Implement real-time sensor monitoring
-- [ ] Develop fall-detection logic
-- [ ] Add vibration alerts and OLED display
-- [ ] Implement wireless notifications
-- [ ] Explore machine learning for event classification
-- [ ] Test detection accuracy and reduce false alarms
-
-### 🎯 Vision
-
-Build an affordable, compact wearable that combines embedded systems, biomedical sensing, and intelligent event detection to support personal safety.
-
-### ⚠️ Disclaimer
-
-FaintGuard is an experimental engineering prototype, not a certified medical device. It cannot reliably predict all fainting episodes and must not replace professional medical assessment or emergency care.
+*FaintGuard is currently an experimental prototype and is not a medically validated fainting prediction or diagnostic device.*
